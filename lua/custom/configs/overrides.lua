@@ -12,7 +12,11 @@ M.treesitter = {
     "c",
     "markdown",
     "markdown_inline",
+    "gdscript",
     "svelte",
+    "python",
+    "rust",
+    "go",
   },
   indent = {
     enable = true,
@@ -35,10 +39,26 @@ M.mason = {
     "deno",
     "prettier",
     "svelte-language-server",
+    "tailwindcss-language-server",
 
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- shell stuff
+    "shfmt",
+
+    -- godot stuff
+    "gdtoolkit",
+
+    -- rust stuff
+    "rust-analyzer",
+
+    -- go stuff
+    "gopls",
+
+    -- python stuff
+    "pyright",
   },
 }
 
